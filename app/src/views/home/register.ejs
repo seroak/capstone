@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="sign_header">
+        <button class="arrow_left">
+            <a href="javascript:history.back()"><i class="fa-solid fa-arrow-left fa-2x"></i></a>
+        </button>
+        <h1 class="sign_ment">회원가입</h1>
+    </header>
+    <main class="index_main">
+        <form action="#" method="get" id="login-form">
+            <h1 class="form_ment">아이디</h1>
+            <input id="id" name="email" type="text" onchange="change_color()">
+            <h1 class="form_ment">이름</h1>
+            <input id="name" name="name" type="text" placeholder="" onchange="change_color()">
+            <h1 class="form_ment">비밀번호</h1>
+            <input id="password" name="password" type="password" onchange="change_color()">
+            <h1 class="form_ment">비밀번호 확인</h1>
+            <input id="password_confirm" name="password" type="password" onchange="change_color()">
+            <h1 class="form_ment">가게 주소</h1>
+            <input id="address" name="address" type="text">
+            <h1 class=" form_ment ">업종명</h1>
+            <input id="type" name="type" type="text">
+            <!-- <label for=" sneakers" class="form_ment">성별</label>
+            <select id="sneakers" onchange="change_color()">
+                <option value="defalut">성별 선택</option>
+                <option value="남자">남</option>
+                <option value="여자">여</option>
+            </select> -->
+            <div class="check_box">
+                <div class="check">
+                    <input type="checkbox" name="color" value="blue">
+                </div>
+                <p>[필수] 만 14세 이상이며 모두 동의합니다.</P>
+            </div>
+            <div class="check_box">
+                <div class="check">
+                    <input type="checkbox" name="color" value="red">
+                </div>
+                <p>[선택] 광고성 정보 수신에 모두 동의합니다.</P>
+            </div>
+            <input id="sign_up" onchange="change_color()" type="submit" value="가입하기">
+        </form>
+
+
+    </main>
+    <script src="https://kit.fontawesome.com/612ed4556b.js" crossorigin="anonymous"></script>
+    <script src="/js/home/register.js"></script>
+</body>
+
+</html>

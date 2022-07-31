@@ -1,0 +1,169 @@
+.upload_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.upload_header_left {
+    display: flex;
+    align-items: center;
+}
+
+.upload_header_left span {
+    margin-right: 10px;
+}
+
+.upload_header_left h1 {
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+.upload_header_right {
+    display: flex;
+    align-items: center;
+}
+
+.upload_header_right button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.upload_header_right span {
+    margin-right: 20px;
+}
+
+.upload_send_input {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px
+}
+
+.upload_send_input label {
+    display: flex;
+    flex-wrap: nowrap;
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+#btn {
+    margin: 0px 30px;
+    margin-top: 130px;
+}
+
+.upload_send_input span {
+    flex-shrink: 0;
+    width: 100px;
+}
+
+.upload_send_input input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+}
+
+#comment {
+    display: flex;
+    padding: 25px;
+}
+
+#comment textarea::-webkit-input-placeholder {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#comment textarea::-moz-placeholder {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#comment textarea:-ms-input-placeholder {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#comment textarea::-ms-input-placeholder {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#comment textarea::placeholder {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+#comment textarea {
+    font-size: 20px;
+}
+
+.filebox label {
+    display: inline-block;
+    padding: .5em .75em;
+    color: #fff;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #5cb85c;
+    cursor: pointer;
+    border: 1px solid #4cae4c;
+    border-radius: .25em;
+    transition: background-color 0.2s;
+}
+
+.filebox label:hover {
+    background-color: #6ed36e;
+}
+
+.filebox label:active {
+    background-color: #367c36;
+}
+
+.filebox input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.result_txt {
+    margin-top: 30px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.result_img {
+    width: 550px;
+    height: auto;
+}
+
+.result_img2 {
+    width: 550px;
+    height: auto;
+}
+
+.result_txt {
+    white-space: pre-wrap;
+}
+
+.visible_box {
+    display: none;
+}
+
+.result_h1_box {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.visible_box h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}

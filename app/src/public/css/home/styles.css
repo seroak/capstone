@@ -1,0 +1,20 @@
+@import "reset.css";
+@import "index.css";
+@import "sign_up.css";
+@import "survey.css";
+@import "output.css";
+@import "login.css";
+@import "mainpage.css";
+@import "more.css";
+@import "resultpage.css";
+@import "icon-row.css";
+@import "user-component.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}

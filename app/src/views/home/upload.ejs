@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home/upload.css">
+    <title>Upload</title>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <h2>File Upload</h2>
+    <p class="lead">이 곳에 업로드해주세요 <b>엑셀(execel)파일형식</b></p>
+
+    <!-- Upload  -->
+    <form action="upload" method="post" enctype="multipart/form-data" id="file-upload-form" class="uploader">
+        <input id="file-upload" type="file" name="up_file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" />
+
+        <label for="file-upload" id="file-drag">
+            <img id="file-image" src="#" alt="Preview" class="hidden">
+            <div id="start">
+                <i class="fa fa-download" aria-hidden="true"></i>
+                <div>Select a file or drag here</div>
+                <div id="notimage" class="hidden">Please select an image</div>
+                <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
+            </div>
+            <div id="response" class="hidden">
+                <div id="messages"></div>
+                <progress class="progress" id="file-progress" value="0">
+                    <span>0</span>%
+                </progress>
+            </div>
+        </label>
+        <input type="submit" class="btn btn-primary" value="upload">
+    </form>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+
+</body>
+
+</html>

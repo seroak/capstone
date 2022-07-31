@@ -1,0 +1,69 @@
+.sign_header {
+    margin: 90px 0px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+.arrow_left {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.sign_ment {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.datalist::-webkit-calendar-picker-indicator {
+    opacity: 1;
+}
+
+.check_box {
+    display: flex;
+    align-items: center;
+}
+
+.check {
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    /*Desired width*/
+    height: 30px;
+    /*Desired height*/
+    cursor: pointer;
+}
+
+#login-form select {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#login-form select:focus {
+    outline: none;
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+#sign_up {
+    background-color: hsl(108, 8%, 77%);
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
